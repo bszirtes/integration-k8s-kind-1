@@ -20,8 +20,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/networkservicemesh/integration-tests/extensions/parallel"
-	"github.com/networkservicemesh/integration-tests/suites/ovs"
+	"github.com/bszirtes/integration-tests-1/extensions/parallel"
+	"github.com/bszirtes/integration-tests-1/suites/ovs"
 )
 
 var smartVFFlag = flag.Bool("smart", false, "selects smartVF tests")

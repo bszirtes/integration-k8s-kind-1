@@ -24,7 +24,7 @@ kind: Kustomization
 namespace: perf-test-wg
 
 bases:
-- https://github.com/networkservicemesh/deployments-k8s/apps/nse-kernel?ref=$nsm_version
+- https://github.com/bszirtes/deployments-k8s/apps/nse-kernel?ref=$nsm_version
 
 patchesStrategicMerge:
 - patch-nse.yaml

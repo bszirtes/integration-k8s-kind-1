@@ -16,7 +16,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 bases:
-- https://github.com/networkservicemesh/deployments-k8s/examples/interdomain/nsm/cluster1?ref=$nsm_version
+- https://github.com/bszirtes/deployments-k8s/examples/interdomain/nsm/cluster1?ref=$nsm_version
 
 patchesStrategicMerge:
 - forwarder-patch.yaml
@@ -28,7 +28,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 bases:
-- https://github.com/networkservicemesh/deployments-k8s/examples/interdomain/nsm/cluster2?ref=$nsm_version
+- https://github.com/bszirtes/deployments-k8s/examples/interdomain/nsm/cluster2?ref=$nsm_version
 
 patchesStrategicMerge:
 - forwarder-patch.yaml

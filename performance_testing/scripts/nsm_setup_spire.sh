@@ -1,7 +1,7 @@
 #!/bin/bash
 
-kubectl "--kubeconfig=$KUBECONFIG1" apply -k https://github.com/networkservicemesh/deployments-k8s/examples/spire/cluster1?ref=v1.8.0 || exit
-kubectl "--kubeconfig=$KUBECONFIG2" apply -k https://github.com/networkservicemesh/deployments-k8s/examples/spire/cluster2?ref=v1.8.0 || exit
+kubectl "--kubeconfig=$KUBECONFIG1" apply -k https://github.com/bszirtes/deployments-k8s/examples/spire/cluster1?ref=v1.8.0 || exit
+kubectl "--kubeconfig=$KUBECONFIG2" apply -k https://github.com/bszirtes/deployments-k8s/examples/spire/cluster2?ref=v1.8.0 || exit
 
 sleep 1
 

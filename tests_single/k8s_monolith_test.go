@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Cisco and/or its affiliates.
+// Copyright (c) 2022-2025 Cisco and/or its affiliates.
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/suites/k8s_monolith"
+	"github.com/bszirtes/integration-tests-1/suites/k8s_monolith"
 )
 
 func TestK8sMonolithSuite(t *testing.T) {

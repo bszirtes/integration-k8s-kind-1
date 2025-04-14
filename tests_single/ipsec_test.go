@@ -19,8 +19,8 @@ package single
 import (
 	"testing"
 
-	"github.com/networkservicemesh/integration-tests/extensions/parallel"
-	"github.com/networkservicemesh/integration-tests/suites/ipsec_mechanism"
+	"github.com/bszirtes/integration-tests-1/extensions/parallel"
+	"github.com/bszirtes/integration-tests-1/suites/ipsec_mechanism"
 )
 
 func TestRunIpsecSuite(t *testing.T) {

@@ -19,8 +19,8 @@ package single
 import (
 	"testing"
 
-	"github.com/networkservicemesh/integration-tests/extensions/parallel"
-	"github.com/networkservicemesh/integration-tests/suites/memory"
+	"github.com/bszirtes/integration-tests-1/extensions/parallel"
+	"github.com/bszirtes/integration-tests-1/suites/memory"
 )
 
 func TestRunMemorySuite(t *testing.T) {

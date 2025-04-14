@@ -1,6 +1,6 @@
 // Copyright (c) 2022-2023 Cisco and/or its affiliates.
 //
-// Copyright (c) 2024 Pragmagic Inc. and/or its affiliates.
+// Copyright (c) 2024-2025 Pragmagic Inc. and/or its affiliates.
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/parallel"
-	"github.com/networkservicemesh/integration-tests/suites/features"
+	"github.com/bszirtes/integration-tests-1/extensions/parallel"
+	"github.com/bszirtes/integration-tests-1/suites/features"
 )
 
 var calicoFlag = flag.Bool("calico", false, "selects calico tests")

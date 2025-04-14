@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Cisco and/or its affiliates.
+// Copyright (c) 2024-2025 Cisco and/or its affiliates.
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/suites/heal_extended"
+	"github.com/bszirtes/integration-tests-1/suites/heal_extended"
 )
 
 func TestRunHealExtendedSuite(t *testing.T) {

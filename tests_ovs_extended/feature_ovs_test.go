@@ -1,6 +1,6 @@
-// Copyright (c) 2024 Nordix and/or its affiliates.
+// Copyright (c) 2024-2025 Nordix and/or its affiliates.
 //
-// Copyright (c) 2024 Pragmagic Inc. and/or its affiliates.
+// Copyright (c) 2024-2025 Pragmagic Inc. and/or its affiliates.
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -22,8 +22,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/networkservicemesh/integration-tests/extensions/parallel"
-	"github.com/networkservicemesh/integration-tests/suites/features_ovs"
+	"github.com/bszirtes/integration-tests-1/extensions/parallel"
+	"github.com/bszirtes/integration-tests-1/suites/features_ovs"
 )
 
 var smartVFFlag = flag.Bool("smart", false, "selects smartVF tests")
